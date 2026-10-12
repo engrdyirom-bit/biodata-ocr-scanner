@@ -81,7 +81,7 @@ def extract_ocr_fields(image):
 
 def send_to_google_sheets(data_payload):
     """Posts extracted data payload to Google Apps Script Webhook."""
-    webhook_url = os.environ.get("GOOGLE_SHEET_WEBHOOK_URL")
+    webhook_url = os.environ.get(https://script.google.com/macros/s/AKfycbwJ71O2l3dzgOCb_rsrFTaKvc2D9j-ePwwHzGlzlyiYpKadQVKhv3q91zoe_gOomJih/exec)
     if not webhook_url:
         print("ERROR: GOOGLE_SHEET_WEBHOOK_URL environment variable is missing.")
         return
